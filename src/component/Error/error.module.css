@@ -1,0 +1,30 @@
+.correct {
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  height: 100px;
+  background-color: green;
+  right: 35%;
+  width: 30%;
+  border-radius: 15px;
+  text-align: center;
+}
+.text {
+  padding-top: 20px;
+  color: white;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.incorrect {
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  height: 100px;
+  background-color: red;
+  right: 40%;
+  width: 30%;
+  border-radius: 15px;
+  text-align: center;
+}

@@ -1,0 +1,45 @@
+.image {
+  width: 20%;
+  height: 20%;
+}
+.caption {
+  font-size: 12px;
+  color: darkgray;
+}
+.i {
+  text-align: center;
+}
+.box {
+  width: 40%;
+  height: 20%;
+  border: 1px solid;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+  top: 10px;
+  left: 30%;
+}
+.t {
+  height: 90vh;
+}
+.input {
+  width: 80%;
+  height: 20px;
+  text-align: center;
+}
+.button {
+  border: 1px solid;
+  background-color: rgb(247, 179, 54);
+  color: black;
+  padding: 5px 5px;
+  border-radius: 5px;
+  margin: 5px 5px;
+}
+.heading {
+  font-weight: bolder;
+  text-align: center;
+  width: 40%;
+  height: 20%;
+
+  background-color: rgb(247, 179, 54);
+}

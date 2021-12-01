@@ -1,0 +1,16 @@
+.title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 5px 5px 5px 5px;
+  background-color: rgb(247, 179, 54);
+  position: relative;
+  width: 30%;
+  left: 35%;
+  white-space: nowrap;
+  font-weight: bold;
+}
+.box {
+  text-align: center;
+  overflow-x: hidden;
+  overflow-y: auto;
+}

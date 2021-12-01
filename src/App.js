@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
 
+import styles from "./App.module.css";
+import { useContext, useEffect } from "react";
+import Navbar from "./component/Navbar/Navbar";
+import Login from "./pages/Login/Login";
+import Error from "./component/Error/error";
+import { GlobalContext } from "./context/Reducers/Provider";
+import Login_ from "./context/action/auth";
 function App() {
+  let { authState, authDispatch } = useContext(GlobalContext);
+  // useEffect(() => {
+  //   if (window.localStorage.getItem("token")) {
+  //     let obj = {
+  //       isloggedin: true,
+  //       user: JSON.parse(window.localStorage.getItem("token")),
+  //       token: window.localStorage.getItem("token"),
+  //     };
+  //     Login_(obj)(authDispatch);
+  //   }
+  // }, []);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={styles.over}>
+      <Error />
+      <Navbar></Navbar>
     </div>
   );
 }

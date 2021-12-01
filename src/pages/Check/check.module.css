@@ -1,0 +1,21 @@
+.center {
+  text-align: center;
+}
+.box1 {
+  background-color: rgb(247, 179, 54);
+  width: 40%;
+  position: relative;
+  left: 30%;
+}
+.box2 {
+  background-color: rgb(247, 179, 54);
+  width: 30%;
+  position: relative;
+  left: 35%;
+}
+.box3 {
+  background-color: rgb(247, 179, 54);
+  width: 20%;
+  position: relative;
+  left: 40%;
+}

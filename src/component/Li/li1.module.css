@@ -1,0 +1,88 @@
+.box {
+  width: 50%;
+  height: 20%;
+  border: 1px solid;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+  top: 10px;
+  left: 25%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.el {
+  width: 50%;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid;
+  border-radius: 5px;
+  position: relative;
+  left: 25%;
+}
+.grey {
+  color: rgb(63, 63, 63);
+}
+.title {
+  display: flex;
+  padding: 5px 5px;
+  margin: 0;
+  white-space: nowrap;
+  flex-direction: row;
+}
+.subtitle {
+  display: flex;
+  margin-left: 5%;
+  /* margin-right: 10%; */
+  white-space: nowrap;
+  padding: 5px 5px;
+  flex-direction: row;
+}
+.marks {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 5px;
+  text-align: right;
+
+  width: 100%;
+}
+.input {
+  width: 80%;
+  height: 20px;
+  text-align: center;
+}
+.button {
+  border: 1px solid;
+  background-color: rgb(247, 179, 54);
+  color: black;
+  padding: 5px 5px;
+  border-radius: 5px;
+  margin: 5px 5px;
+}
+.heading {
+  font-weight: bolder;
+  text-align: center;
+  width: 40%;
+  height: 30%;
+
+  background-color: rgb(247, 179, 54);
+}
+.attempted {
+  background-color: rgb(255, 226, 172);
+}
+@media screen and (max-width: 800px) {
+  .el {
+    width: 90%;
+    left: 5%;
+  }
+  .title {
+    font-size: 12px;
+  }
+  .subtitle {
+    font-size: 12px;
+  }
+  .marks {
+    /* flex-direction: row; */
+    font-size: 12px;
+  }
+}

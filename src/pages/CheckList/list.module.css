@@ -1,0 +1,18 @@
+.title {
+  position: relative;
+  width: 40%;
+  left: 30%;
+  background-color: rgb(247, 179, 54);
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.bbox {
+  text-align: center;
+}
+.box {
+  /* width: 100vh;
+  height: 90vh; */
+  overflow-x: hidden;
+  overflow-y: auto;
+}
